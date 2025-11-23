@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #ff512f, #dd2476); /* full colour bg */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+    .box {
+      padding: 40px 30px;
+      border-radius: 20px;
+      background: rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(6px);
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+    p {
+      margin-bottom: 25px;
+      font-size: 18px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      border-radius: 999px;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      background: #fff;
+      color: #dd2476;
+      text-decoration: none;
+    }
+    .btn:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>We’ll come to all</h1>
+    <p>Tap below to open the movie folders.</p>
+    <!-- Next page ki velladaniki button -->
+    <a class="btn" href="movies.html">Open Movies Page</a>
+  </div>
+</body>
+</html>
