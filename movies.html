@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Select Movie Folder</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      min-height: 100vh;
+      background: #050816;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background: #0f172a;
+    }
+    h1 {
+      margin-bottom: 5px;
+    }
+    .back {
+      color: #38bdf8;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .grid {
+      max-width: 1100px;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 20px;
+      padding: 0 15px 30px;
+    }
+    .folder {
+      background: #111827;
+      border-radius: 16px;
+      padding: 20px 10px;
+      text-align: center;
+      cursor: pointer;
+      text-decoration: none;
+      color: #e5e7eb;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .folder span {
+      font-size: 40px;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .folder strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+    .folder small {
+      font-size: 12px;
+      opacity: 0.7;
+    }
+    .folder:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 30px rgba(0,0,0,0.6);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Select Movie Folder</h1>
+    <a class="back" href="index.html">⬅ Back to Welcome page</a>
+  </header>
+
+  <div class="grid">
+    <!-- Max 10 folders -->
+    <a class="folder" href="movie1.html">
+      <span>📁</span>
+      <strong>Folder 1</strong>
+      <small>Tap to open movie 1</small>
+    </a>
+
+    <a class="folder" href="movie2.html">
+      <span>📁</span>
+      <strong>Folder 2</strong>
+      <small>Tap to open movie 2</small>
+    </a>
+
+    <a class="folder" href="movie3.html">
+      <span>📁</span>
+      <strong>Folder 3</strong>
+      <small>Tap to open movie 3</small>
+    </a>
+
+    <a class="folder" href="movie4.html">
+      <span>📁</span>
+      <strong>Folder 4</strong>
+      <small>Tap to open movie 4</small>
+    </a>
+
+    <a class="folder" href="movie5.html">
+      <span>📁</span>
+      <strong>Folder 5</strong>
+      <small>Tap to open movie 5</small>
+    </a>
+
+    <a class="folder" href="movie6.html">
+      <span>📁</span>
+      <strong>Folder 6</strong>
+      <small>Tap to open movie 6</small>
+    </a>
+
+    <a class="folder" href="movie7.html">
+      <span>📁</span>
+      <strong>Folder 7</strong>
+      <small>Tap to open movie 7</small>
+    </a>
+
+    <a class="folder" href="movie8.html">
+      <span>📁</span>
+      <strong>Folder 8</strong>
+      <small>Tap to open movie 8</small>
+    </a>
+
+    <a class="folder" href="movie9.html">
+      <span>📁</span>
+      <strong>Folder 9</strong>
+      <small>Tap to open movie 9</small>
+    </a>
+
+    <a class="folder" href="movie10.html">
+      <span>📁</span>
+      <strong>Folder 10</strong>
+      <small>Tap to open movie 10</small>
+    </a>
+  </div>
+</body>
+</html>
